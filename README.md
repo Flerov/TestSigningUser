@@ -66,6 +66,9 @@ You can imagine the virtual address space, as a house with **4 levels**, on each
 This is definitely not a normal house, and without a map we would have no chance of finding the correct 4 doors to find our data stored in RAM.
 But luckily a virtual address is a map, that tells us exactly which doors to open.
 
+![Page table mapping](PageTableMapping.png) </br>
+(source: https://www.amd.com/system/files/TechDocs/24593.pdf)
+
 ---
 
 # The x64 virtual address layout
