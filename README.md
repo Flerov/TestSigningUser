@@ -311,10 +311,7 @@ dbutil.WriteMemory(ptr_PTEe_VA, &ptr_PTEe_VA_BAK, sizeof(ULONG64));
 As you can see we will first relink the PFN, write to our own memory in the user-mode process, to overwrite the flag and send our system into TestMode.
 After everything is done, we will undo the relink, leaving the system in an untrusted state.
 
-<video width="640" height="360" controls>
-  <source src="Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![til](Demo.gif)
 
 ---
 
